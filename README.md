@@ -1,3 +1,3 @@
-# LandingPage-main
+# LandingPage
 
-![alt text](img\tela.png)
+![alt text](./img/tela.png)

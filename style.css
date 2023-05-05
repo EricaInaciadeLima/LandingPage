@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     font-family: 'Poppins', sans-serif;
 }
 section{
@@ -16,6 +18,9 @@ section{
     align-items: center;
     background: #121212;
     overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 .circle{
     position: absolute;
@@ -90,6 +95,7 @@ header .navegation li a{
 .container .text a{
     display: inline-block;
     margin-top: 100px;
+    margin-bottom: 40px;
     padding: 10px 25px;
     background: #e51e2a;
     color: #fff;
@@ -106,7 +112,7 @@ header .navegation li a{
 
 .icons{
     position: absolute;
-    bottom: 40px;
+    bottom: 80px;
     margin: -50px;
     left:100px;
     display: flex;
